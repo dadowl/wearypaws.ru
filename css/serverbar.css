@@ -1,0 +1,164 @@
+/* Настройка прогресс бара - Оранжевый */
+
+div .orangebar 
+{ 
+border: 1px solid #914a00; 
+background-color: #efefef;
+width: 100px;
+border-radius: 4px;
+-o-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+div .orangebar  div{  background: url('../images/bg.gif') 0px 0px repeat; }
+
+/* Настройка прогресс бара - Зеленый */
+
+div .greenbar 
+{ 
+border: 1px solid #426a10; 
+background-color: #adadad;
+width: 100px;
+border-radius: 4px;
+-o-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+div .greenbar  div{  background: url('../images/bg_green.gif') 0px 0px repeat; }
+
+/* Настройка прогресс бара - Красный */
+
+div .redbar 
+{  
+border: 1px solid #9d2104; 
+background-color: #646464;
+width: 100px;
+border-radius: 4px;
+-o-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+div .redbar div{  background: url('../images/bg_red.gif') 0px 0px repeat; }
+
+/* Настройка прогресс бара - Синий */
+
+div .bluebar { 
+border: 1px solid #326193; 
+background-color: #efefef;
+width: 100px;
+border-radius: 4px;
+-o-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+div .bluebar div{  background: url('../images/bg_blue.gif') 0px 0px repeat; }
+
+/* Настройка прогресс бара - Основная настройка - родитель */
+
+div .progressbar_meter
+{
+    height: 20px;
+    text-align: center;
+    font-size: 11px;
+	font-weight: bold; 
+	color: #fff; 
+	line-height: 20px; 
+    text-shadow: 0px 0px 3px #000;
+	text-indent: 2px;
+	white-space: nowrap;
+    -o-text-shadow: 0px 0px 3px #000;
+    -moz-text-shadow: 0px 0px 3px #000;
+    -webkit-text-shadow: 0px 0px 3px #000;
+	
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/* Статичная подпись - центр прогресс бара */
+
+div .progressbar_overlay
+{
+    text-align: center;
+    font-size: 11px;
+	font-weight: bold; 
+	color: #fff; 
+	line-height: 20px; 
+    text-shadow: 0px 0px 3px #000;
+	margin-top: 1px;
+	float:left; 
+	display: block; 
+	text-align:center; 
+	width: 100%;
+}
+
+/* Статичная подпись сверху */
+
+div .progressbar_overlay_top {
+background: #373737;
+display:inline-block;
+
+font: 12px Calibri;
+
+border-top: 2px solid #484848; 
+border-left: 2px solid #484848; 
+border-right: 2px solid #484848; 
+
+-o-text-shadow: 0px 0px 3px #000;
+-moz-text-shadow: 0px 0px 3px #000;
+-webkit-text-shadow: 0px 0px 3px #000;
+
+border-radius: 3px 3px 0px 0px;
+-o-border-radius: 3px 3px 0px 0px;
+-moz-border-radius: 3px 3px 0px 0px;
+-webkit-border-radius: 3px 3px 0px 0px;
+
+min-height: 15px;
+text-align: center;
+font-size: 11px;
+font-weight: bold; 
+color: #fff; 
+
+padding: 4px;
+}
+
+/* Площадка - Информация о сервере */
+
+.server-info-holder {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding : 5px;
+
+/* Расположение - друг за другом  */	
+	
+	display: block;
+	float:left;
+	margin-right: 0px;
+}
+
+.server-info-name 
+{
+	margin: 0 auto;
+	font-size: 14px;
+	width : 110px;
+	margin-bottom: 3px;
+	border-bottom: 1px dashed #a8a8a8;
+	color : black;
+}
+
+.server-info-state  {
+	width : 100px;
+	margin: 0 auto;
+}
+
+.server-info-holder{
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	border: 0 !important;
+	border-radius: 0px !important;
+	margin-right: 0px !important;
+	background: none !important;
+}
